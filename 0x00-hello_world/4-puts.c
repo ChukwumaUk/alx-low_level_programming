@@ -1,8 +1,14 @@
 #include <stdio.h>
 
-/*Writing a program that prints a statement with the puts function*/
+/*
+ * main - Entry point
+ *
+ * A program that prints a statement with the puts function
+ *
+ * Return: Program must end with 0 for this program
+ */
 
-int main(void) /*This is the main function*/
+int main(void)
 
 {
 
