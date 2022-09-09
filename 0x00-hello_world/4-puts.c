@@ -2,7 +2,7 @@
 
 /*Writing a program that prints a statement with the puts function*/
 
-int main(void)
+int main(void) /*This is the main function*/
 
 {
 
