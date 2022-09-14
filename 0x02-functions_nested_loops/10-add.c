@@ -3,20 +3,21 @@
 /**
  * add - add two integers and return the result
  *
- * @int: numbers to be added
+ * @num1: 1st number to be added
+ *
+ * @num2: 2nd number to be added
  *
  * Return: void
  */
 
-int add(int, int)
+int add(int num1, int num2)
 {
 
 int result;
-int num1, num2;
 
 result = num1 + num2;
 
-putchar(result);
-putchar('\n');
+_putchar(result);
+_putchar('\n');
 
 }
