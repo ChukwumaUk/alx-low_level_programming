@@ -14,7 +14,7 @@ int lin;
 
 if (n > 0)
 {
-for (lin = 0; lin <= n; lin++)
+for (lin = 0; lin < n; lin++)
 	_putchar('_');
 
 }
