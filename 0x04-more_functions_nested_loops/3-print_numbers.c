@@ -12,9 +12,8 @@ void print_numbers(void)
 int dig;
 
 for (dig = 0; dig <= 9; dig++)
-{
+
 _putchar((dig % 10) + '0');
 _putchar('\n');
-}
 
 }
