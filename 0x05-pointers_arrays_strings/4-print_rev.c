@@ -14,7 +14,7 @@ void print_rev(char *s)
 int len = 0, list;
 
 while (s[list++])
-	len++
+	len++;
 
 		for (list = len - 1; list >= 0; list--)
 			_putchar(s[list]);
