@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Write a function that prints n elements of an
@@ -12,7 +13,7 @@ void print_array(int *a, int n)
 
 int indx;
 
-for (indx = 0; indx < n, indx++)
+for (indx = 0; indx < n; indx++)
 {
 printf("%d", a[indx]);
 
