@@ -17,7 +17,7 @@ char swp;
 while (s[indx++])
 	len++;
 
-for (indx = len - 1; indx => len / 2; indx--)
+for (indx = len - 1; indx >= len / 2; indx--)
 {
 
 swp = s[indx];
