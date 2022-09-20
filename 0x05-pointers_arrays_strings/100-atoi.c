@@ -41,5 +41,5 @@ if (s[i + 1] < 48 || s[i + 1] > 57)
 }
 if (q < 0)
 	p *= -1;
-	return (h);
+	return (p);
 }
