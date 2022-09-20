@@ -20,8 +20,8 @@ printf("%d", a[indx]);
 if (indx == n - 1)
 continue;
 
-printf(', ');
+printf(", ");
 
 }
-printf('\n');
+printf("\n");
 }
