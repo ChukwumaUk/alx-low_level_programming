@@ -25,6 +25,9 @@ if (len1 >= size_r || len2 >= size_r)
 	return (0);
 for (j = 0, i = len1 - 1; j < len1; j++, i--)
 	n1c[j] = n1[i];
+n1c[j] = '\0';
+for (j = 0, i = len2 - 1; j < len2; j++, i--)
+	n2c[j] = n1[i];
 n2c[j] = '\0';
 while (num < size_r - 1)
 {
