@@ -24,7 +24,7 @@ if (s2 == NULL)
 for (i = 0; s1[i] || s2[i]; i++)
 	len++;
 
-concat_str = malloc(sizeof(char) * len)
+concat_str = malloc(sizeof(char) * len);
 
 	if (concat_str == NULL)
 		return (NULL);
