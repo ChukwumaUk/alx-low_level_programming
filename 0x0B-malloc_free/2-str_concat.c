@@ -33,7 +33,7 @@ for (i = 0; s1[i]; i++)
 	concat_str[concat_index++] = s1[i];
 
 for (i = 0; s2[i]; i++)
-	concat_str[concat_index++] = s2[i]
+	concat_str[concat_index++] = s2[i];
 
 		return (concat_str);
 }
