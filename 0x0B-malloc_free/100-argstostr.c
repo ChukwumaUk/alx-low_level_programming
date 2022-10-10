@@ -27,9 +27,10 @@ for (byte = 0; av[arg][byte]; byte++)
 str = malloc(sizeof(char) * size + 1);
 
 if (str == NULL)
-	return (NULL);
+return (NULL);
 
-	i = 0;
+i = 0;
+
 for (arg = 0; arg < ac; arg++)
 {
 for (byte = 0; av[arg][byte]; byte++)
