@@ -2,14 +2,12 @@
 #define FUNCTION_LIKE_MACRO_H
 
 /**
- * ABS(x) - Computes absolute value
+ * main - Write a function-like macro ABS(x) that computes
+ * the absolute value of a number x.
+ * @x: Finding its absolute value
  *
- * @x: Value to be computed to find absolute value
- *
- * description: Write a function-like macro ABS(x)
- * that computes the absolute value of a number x.
+ * Return: Absolute value
  */
-
 
 #define ABS(x) ((x) < 0 ? (-x) : (x))
 
