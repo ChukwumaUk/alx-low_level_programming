@@ -53,7 +53,7 @@ if (scooby_doo)
 scooby_doo->name = malloc(sizeof(char) * (name_len + 1));
 if (scooby_doo->name)
 {
-scooby_do->owner = malloc(sizeof(char) * (owner_len + 1));
+scooby_doo->owner = malloc(sizeof(char) * (owner_len + 1));
 if (scooby_doo->owner)
 {
 my_strcpy(scooby_doo->name, name);
