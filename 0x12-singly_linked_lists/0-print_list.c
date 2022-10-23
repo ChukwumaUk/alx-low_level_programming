@@ -5,9 +5,7 @@
 
 /**
  * print_list - print singly linked list
- *
  * @h: pointer to the head node
- *
  * Return: number of nodes
  */
 
